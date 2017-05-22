@@ -211,7 +211,7 @@ layui.define('layer', function(exports){
               ,value: value
               ,othis: reElem
             });
-            select.trigger("change"); //引发onchange事件，实现 knockout/angular 的数据同步
+            select.trigger("change"); //引发onchange事件，解决 knockout/angular 的数据同步
             hideDown();
             
             return false;
