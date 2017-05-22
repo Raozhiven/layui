@@ -211,7 +211,7 @@ layui.define('layer', function(exports){
               ,value: value
               ,othis: reElem
             });
-
+            select.trigger("change");  //触发onchange事件
             hideDown();
             
             return false;
